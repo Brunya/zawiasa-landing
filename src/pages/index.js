@@ -1,21 +1,38 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FullPage, Slide } from 'react-full-page';
+import { Helmet } from "react-helmet";
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import "../components/Style.css"
+
+import Head from "../components/Head"
+import Team from "../components/Team"
+import Projects from "../components/Projects"
+import Partners from "../components/Partners"
+
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  <>
+  <Helmet>
+       <title>Zawiasa.hu</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+   </Helmet>
+   
+  <FullPage>
+    <Slide>
+      <Head/>
+    </Slide>
+    <Slide>
+      <Team/>
+    </Slide>
+    <Slide>
+      <Projects/>
+    </Slide>
+    <Slide>
+      <Partners/>
+    </Slide>
+  </FullPage>
+  </>
 )
 
 export default IndexPage
