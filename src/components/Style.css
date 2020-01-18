@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: 'Raleway', sans-serif;
+  color: #fff;
   cursor: default;
 }
 
@@ -10,6 +11,7 @@ body {
 
 .background {
   min-height: 100vh;
+  background: #000000;
 
   display: flex;
   align-items: center;
@@ -20,15 +22,10 @@ body {
   background: radial-gradient(50% 50% at 50% 50%, #2C2C2C 0%, #000000 100%);
 }
 
-.plain-bg {
-  background: #000000;
-}
-
 .zgen {
   font-size: 130px;
   font-weight: 800;
   line-height: 80%;
-  color: #FFFDFD;
 
   margin: 0px
 }
@@ -36,28 +33,24 @@ body {
 .kibernetika {
   font-size: 25px;
   font-weight: 700;
-  color: #FFFDFD;
 
   margin: 0 0 0 6px
 }
 
 .shine {
-  text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
   transition: 0.5s;
 }
 
 .shine:hover {
-  text-shadow: 0 0 6px #fff;
+  text-shadow: 0px 0 12px #fff;
 }
 
 .zawiasa {
   font-size: 188px;
   font-weight: 900;
-  color: #FFFDFD;
+
   letter-spacing: -0.1em;
   height: 200px;
-
-  margin: 0px;
 }
 
 .team-grid-container {
@@ -71,7 +64,7 @@ body {
 .team-grid-head {
   grid-column: 1 / 5;
   text-align: left;
-  padding-left: 11px;
+  padding-left: 10px;
 }
 
 .team-image {
@@ -88,9 +81,7 @@ body {
 .team-name {
   font-size: 36px;
   font-weight: 800;
-  color: #FFFDFD;
 
-  margin: 0px;
 }
 
 .projects-grid-container {
@@ -108,17 +99,18 @@ body {
 .flexbox {
   display: flex;
   flex-direction: column;
+  width: 885px;
 }
 
 .expertise {
-  font-size: 185px;
+  font-size: 184px;
   font-weight: 900;
-  color: #FFFDFD;
+
   letter-spacing: -0.05em;
   height: 200px;
 
   position: relative;
-  left: -8px;
+  left: -11px;
 }
 
 .small {
@@ -147,8 +139,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #fff;
-
+  background: #fff;
+  color: #000;
   transition: 0.3s;
 }
 
@@ -177,32 +169,20 @@ body {
 .md3 { grid-area: md3 }
 .md4 { grid-area: md4 }
 
-
-
 .partners {
   font-size: 160px;
   font-weight: 900;
-  color: #FFFDFD;
   letter-spacing: -0.05em;
-}
-
-.soon {
-  font-size: 80px;
-  font-weight: 700;
-  color: grey;
-  margin: 0px;
 }
 
 .contact {
   font-size: 180px;
   font-weight: 900;
   height: 180px;
+  letter-spacing: -0.075em;
 
   position: relative;
-  left: -12px;
-
-  color: #FFFDFD;
-  letter-spacing: -0.075em;
+  left: -8px;
 }
 
 .contact-grid-container {
@@ -256,7 +236,6 @@ body {
   border: none;
   outline: none;
 
-
   transition: all .05s ease-out-in;
 }
 
@@ -270,7 +249,6 @@ body {
 }
 
 .sent-message {
-  color: #fff;
   font: 16px Raleway;
   margin: 0px;
 }

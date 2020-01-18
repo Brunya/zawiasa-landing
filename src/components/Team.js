@@ -4,13 +4,13 @@ import "./Style.css"
 
 const Team = () => {
   return (
-    <div className="background plain-bg">
+    <div className="background">
       <div className="team-grid-container">
         <div className="team-grid-head zawiasa shine">
           ZAWIASA
         </div>
         <div className="team-grid-item">
-          <img className="team-image" src="https://semantic-ui.com/images/avatar2/large/matthew.png"/>
+          <img className="team-grid-item team-image" src="https://semantic-ui.com/images/avatar2/large/matthew.png"/>
         </div>
         <div className="team-grid-item">
           <img className="team-image" src="https://semantic-ui.com/images/avatar/large/elliot.jpg"/>
