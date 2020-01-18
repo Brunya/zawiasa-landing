@@ -19,7 +19,7 @@ const IndexPage = () => (
    </Helmet>
 
   <Fullpage>
-    <FullpageNavigation itemStyle={{cursor: "pointer"}} reverse={true} transitionTiming={2000}/>
+    <FullpageNavigation itemStyle={{cursor: "pointer", background: "white", borderRadius: "0%"}} transitionTiming={2000}/>
     <FullPageSections>
 
       <FullpageSection>
