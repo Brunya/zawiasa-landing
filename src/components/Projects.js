@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="background gradient-bg">
       <div className="flexbox">
-        <div className="expertise">
+        <div className="expertise shine">
           EXPERTISE
         </div>
         <div className="projects-grid-container">

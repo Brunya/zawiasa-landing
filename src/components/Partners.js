@@ -4,8 +4,9 @@ import "./Style.css"
 
 const Partners = () => {
   return (
-    <div className="background plain-bg">
-      <div className="partners">PARTNERS</div>
+    <div className="background flexbox plain-bg">
+      <div className="partners shine">PARTNERS</div>
+      <div className="soon">SOON...</div>
     </div>
   )
 }

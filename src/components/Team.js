@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <div className="background plain-bg">
       <div className="team-grid-container">
-        <div className="team-grid-head zawiasa">
+        <div className="team-grid-head zawiasa shine">
           ZAWIASA
         </div>
         <div className="team-grid-item">
