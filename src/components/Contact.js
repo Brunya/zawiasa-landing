@@ -46,7 +46,7 @@ const Contact = (props) => {
       <form id="contact-form" onSubmit={handleSubmit}>
       <div className="contact-grid-container">
         <div className="contact-grid-double contact shine">
-          CONTACT US
+          CONTACT
         </div>
 
         <input

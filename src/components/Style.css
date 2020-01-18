@@ -25,7 +25,7 @@ body {
 }
 
 .zgen {
-  font-size: 120px;
+  font-size: 130px;
   font-weight: 800;
   line-height: 80%;
   color: #FFFDFD;
@@ -34,7 +34,7 @@ body {
 }
 
 .kibernetika {
-  font-size: 23.5px;
+  font-size: 25px;
   font-weight: 700;
   color: #FFFDFD;
 
@@ -194,15 +194,15 @@ body {
 }
 
 .contact {
-  font-size: 138px;
+  font-size: 180px;
   font-weight: 900;
-  height: 140px;
+  height: 180px;
 
   position: relative;
-  left: -8px;
+  left: -12px;
 
   color: #FFFDFD;
-  letter-spacing: -0.08em;
+  letter-spacing: -0.075em;
 }
 
 .contact-grid-container {
@@ -221,6 +221,7 @@ body {
   background: #fff;
   width: auto !important;
   font: 16px Raleway;
+  border: none;
 
   padding: 12px;
 
@@ -254,6 +255,7 @@ body {
   background: #fff;
   border: none;
   outline: none;
+
 
   transition: all .05s ease-out-in;
 }
