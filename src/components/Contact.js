@@ -71,13 +71,13 @@ const Contact = (props) => {
         {isSent ? (
           <p className="contact-grid-double sent-message">Thank you!<br/>Your message has been sent.</p>
           ) : (
-          <input type ="submit" value="Send" className="contact-grid-double contact-submit"/>
+          <input type ="submit" value="Send" className={"contact-grid-double contact-submit " + ((values.name && values.email && values.message) ? 'fade-out' : 'ease-out')}/>
         )}
 
-        {isSent == false &&
-          <p className="contact-grid-double missing-form">Oops. Something is missing.</p>
-        }
       </div>
+      {isSent == false &&
+        <p className="missing-form">Oops. Something is missing.</p>
+      }
       </form>
     </div>
   )

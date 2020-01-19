@@ -9,7 +9,7 @@ const Team = () => {
         <div className="team-grid-head zawiasa shine">
           ZAWIASA
         </div>
-        <div className="team-grid-item">
+        <div className="team-grid-item shine-combo">
           <img className="team-grid-item team-image" src="https://semantic-ui.com/images/avatar2/large/matthew.png"/>
         </div>
         <div className="team-grid-item">
@@ -21,10 +21,10 @@ const Team = () => {
         <div className="team-grid-item">
           <img className="team-image" src="https://semantic-ui.com/images/avatar/large/christian.jpg"/>
         </div>
-        <div className="team-grid-item team-name"> ROBERT </div>
-        <div className="team-grid-item team-name"> ARON </div>
-        <div className="team-grid-item team-name"> BERNAT </div>
-        <div className="team-grid-item team-name"> BRUNO </div>
+        <div className="team-grid-item team-name shine"> ROBERT </div>
+        <div className="team-grid-item team-name shine"> ARON </div>
+        <div className="team-grid-item team-name shine"> BERNAT </div>
+        <div className="team-grid-item team-name shine"> BRUNO </div>
       </div>
     </div>
   )
