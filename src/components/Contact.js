@@ -29,7 +29,7 @@ const Contact = (props) => {
     } else {
 
       const TOKEN = "917347158:AAERyxqG8NkbO1djcV1pUeRtsG1eZs3sLx0"
-      const CHAT_ID = "514623364"
+      const CHAT_ID = "-397044139"
       const MESSAGE = encodeURIComponent(`Üzenetet hoztam!\n\nNév: ${values.name}\nEmail: ${values.email}\n\n${values.message}`)
 
       fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${MESSAGE}`, {
