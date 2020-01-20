@@ -1,8 +1,12 @@
 import React from "react"
 
-import "./Style.css"
+import "./Style.css";
+import berci from '../images/berci.jpg';
+import bruno from '../images/bruno.jpg';
+
 
 const Team = () => {
+  console.log(__dirname);
   return (
     <div className="background">
       <div className="team-grid-container">
@@ -16,10 +20,10 @@ const Team = () => {
           <img className="team-image" src="https://semantic-ui.com/images/avatar/large/elliot.jpg"/>
         </div>
         <div className="team-grid-item">
-          <img className="team-image" src="https://fomantic-ui.com/images/avatar/large/chris.jpg"/>
+          <img className="team-image" src={berci}/>
         </div>
         <div className="team-grid-item">
-          <img className="team-image" src="https://semantic-ui.com/images/avatar/large/christian.jpg"/>
+          <img className="team-image" src={bruno}/>
         </div>
         <div className="team-grid-item team-name shine"> ROBERT </div>
         <div className="team-grid-item team-name shine"> ARON </div>
