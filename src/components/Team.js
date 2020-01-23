@@ -4,7 +4,7 @@ import "./Style.css";
 import robert from '../images/robert_vicces.jpg';
 import aron from '../images/aron.jpg';
 import berci from '../images/berci.jpg';
-import bruno from '../images/bruno.jpg';
+import bruno from '../images/bruno2.jpg';
 
 
 const Team = () => {
