@@ -280,7 +280,8 @@ body {
   font: 16px Raleway;
   margin: 0px;
 
-  position: absolute;
-  bottom: 3%;
-  left: 43%
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2%;
 }
