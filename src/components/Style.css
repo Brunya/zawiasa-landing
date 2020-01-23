@@ -156,6 +156,8 @@ body {
   transform: scale(1.025);
 }
 
+
+
 .lg { grid-area: lg }
 
 .sm1 { grid-area: sm1 }

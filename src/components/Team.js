@@ -1,6 +1,8 @@
 import React from "react"
 
 import "./Style.css";
+import robert from '../images/robert.jpg';
+import aron from '../images/aron.jpg';
 import berci from '../images/berci.jpg';
 import bruno from '../images/bruno.jpg';
 
@@ -14,10 +16,10 @@ const Team = () => {
           ZAWIASA
         </div>
         <div className="team-grid-item shine-combo">
-          <img className="team-grid-item team-image" src="https://semantic-ui.com/images/avatar2/large/matthew.png"/>
+          <img className="team-grid-item team-image" src={robert}/>
         </div>
         <div className="team-grid-item">
-          <img className="team-image" src="https://semantic-ui.com/images/avatar/large/elliot.jpg"/>
+          <img className="team-image" src={aron}/>
         </div>
         <div className="team-grid-item">
           <img className="team-image" src={berci}/>
