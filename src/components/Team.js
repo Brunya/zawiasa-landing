@@ -1,14 +1,13 @@
 import React from "react"
 
 import "./Style.css";
-import robert from '../images/robert_vicces.jpg';
+import robert from '../images/robert.jpg';
 import aron from '../images/aron.jpg';
 import berci from '../images/berci.jpg';
 import bruno from '../images/bruno2.jpg';
 
 
 const Team = () => {
-  console.log(__dirname);
   return (
     <div className="background">
       <div className="team-grid-container">

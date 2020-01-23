@@ -5,7 +5,7 @@ import "./Style.css"
 const Projects = () => {
   return (
     <div className="background">
-      <div className="flexbox">
+      <div className="flexbox-projects">
         <div className="expertise shine">
           EXPERTISE
         </div>

@@ -21,7 +21,6 @@ const IndexPage = () => (
   <Fullpage>
     <FullpageNavigation itemStyle={{cursor: "pointer", background: "white", borderRadius: "0%"}} transitionTiming={2000}/>
     <FullPageSections>
-
       <FullpageSection>
         <Head/>
       </FullpageSection>
@@ -32,6 +31,10 @@ const IndexPage = () => (
 
       <FullpageSection>
         <Projects/>
+      </FullpageSection>
+
+      <FullpageSection>
+        <Partners/>
       </FullpageSection>
 
       <FullpageSection>
