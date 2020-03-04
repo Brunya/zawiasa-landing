@@ -3,8 +3,8 @@ import React from "react"
 import "./Style.css";
 import robert from '../images/robert.jpg';
 import aron from '../images/aron.jpg';
-import berci from '../images/berci.jpg';
-import bruno from '../images/bruno2.jpg';
+import berci from '../images/bernat.jpg';
+import bruno from '../images/bruno.jpg';
 
 
 const Team = () => {
@@ -15,7 +15,7 @@ const Team = () => {
           ZAWIASA
         </div>
         <div className="team-grid-item shine-combo">
-          <img className="team-grid-item team-image" src={robert}/>
+          <img className="team-image" src={robert}/>
         </div>
         <div className="team-grid-item">
           <img className="team-image" src={aron}/>
