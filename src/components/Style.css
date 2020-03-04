@@ -5,6 +5,10 @@ body {
   cursor: default;
 }
 
+.page {
+  height: 99vh;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }
