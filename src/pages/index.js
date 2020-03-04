@@ -12,9 +12,14 @@ import Contact from "../components/Contact"
 
 
 function IndexPage() {
+  const [width, setWidth] = React.useState(0);
+  const windowGlobal = typeof window !== 'undefined' && window;
+  const isDesktop = width > 768;
 
-  const isDesktop = window.outerWidth > 768;
-  console.log(window.outerWidth);
+  useEffect(() => {
+    window.addEventListener('resize', setWidth(window.outerWidth));
+  });
+
 
     return (
       <>
