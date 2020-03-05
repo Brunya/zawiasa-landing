@@ -1,8 +1,18 @@
+html {
+  background: black;
+}
+
 body {
   margin: 0px;
   font-family: 'Raleway', sans-serif;
-  color: #fff;
+  color: black;
   cursor: default;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .page {
