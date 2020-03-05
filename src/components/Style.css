@@ -40,15 +40,15 @@ input {
   font-size: 148px;
   font-weight: 800;
   line-height: 80%;
-
-  margin: 0px
+  margin: 0px;
+  color: white;
 }
 
 .kibernetika {
   font-size: 29px;
   font-weight: 700;
-
-  margin: 0 0 0 6px
+  margin: 0 0 0 6px;
+  color: white;
 }
 
 .shine {
@@ -79,6 +79,7 @@ input {
   grid-column: 1 / 5;
   text-align: left;
   padding-left: 10px;
+  color: white;
 }
 
 .team-image {
@@ -99,7 +100,7 @@ input {
 .team-name {
   font-size: 36px;
   font-weight: 800;
-
+  color: white;
 }
 
 .projects-grid-container {
@@ -123,7 +124,7 @@ input {
 .expertise {
   font-size: 184px;
   font-weight: 900;
-
+  color: white;
   letter-spacing: -0.05em;
   height: 190px;
 
@@ -192,7 +193,7 @@ input {
   font-weight: 900;
   letter-spacing: -0.05em;
   height: 170px;
-
+  color: white;
 }
 
 .flexbox-partners {
@@ -212,6 +213,7 @@ input {
 }
 
 .contact {
+  color: white;
   font-size: 180px;
   font-weight: 900;
   height: 175px;
