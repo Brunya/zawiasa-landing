@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect } from "react"
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '../autoScroll.js';
 import { Helmet } from "react-helmet";
 
@@ -19,12 +19,13 @@ function IndexPage() {
   useEffect(() => {
     window.addEventListener('resize', setWidth(window.outerWidth));
   });
-  console.log(Fullpage);
+
   return (
     <>
     <Helmet>
          <title>Zawiasa.hu</title>
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+         <meta name="description" content="Zawiasa Clojure developer team from Szeged."/>
+         <meta name="keywords" content="zawiasa, szeged clojure, clojure ai, clojure iot, clojure developer team, clojure developer, clojure, zawisa robert, zawiasa bruno, zawiasa aron, zawiasa bernat"/>
     </Helmet>
 
     {isDesktop ? (

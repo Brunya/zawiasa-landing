@@ -75,7 +75,7 @@ const Contact = (props) => {
         )}
 
       </div>
-      {isSent == false &&
+      {isSent === false &&
         <p className="missing-form">Oops. Something is missing.</p>
       }
       </form>

@@ -7,23 +7,81 @@ import berci from '../images/bernat.jpg';
 import bruno from '../images/bruno.jpg';
 
 
+
 const Team = () => {
+
+  const [anim, setAnim] = React.useState(["close", ""]);
+
+  function ModalContent(){
+    switch(anim[1]){
+      case "Robert":
+        return (
+          <>
+            <p className="modal-name">ZAWIASA ROBERT HENRIK</p>
+            <ul className="infos">
+              <li>35 year professional  programming experiment</li>
+              <li>Co Founder of the first internet provider company in Hungary</li>
+              <li>Developer Inventor</li>
+              <li>Clojure, Java, C, C++, Python</li>
+              <li>Hobby: Microcomputers, Programming language design</li>
+            </ul>
+          </>
+        )
+      case "Aron":
+        return (
+          <>
+            <p className="modal-name">ZAWIASA ROBERT ARON</p>
+            <ul className="infos">
+              <li>7 year professional programming experiment</li>
+              <li>Software consultant, Bussiness advisor</li>
+              <li>Clojure, Clojurescript</li>
+              <li>Hobby: Cryptocurrancies, Game development</li>
+            </ul>
+          </>
+        )
+      case "Bernat":
+        return (
+          <>
+            <p className="modal-name">ZAWIASA BERNAT BARNABAS</p>
+            <ul className="infos">
+              <li>2 year programming experiment</li>
+              <li>Junior frontend developer</li>
+              <li>Clojure, Clojurescript</li>
+              <li>Hobby: Robotics</li>
+            </ul>
+          </>
+        )
+      case "Bruno":
+        return (
+          <>
+            <p className="modal-name">ZAWIASA BRUNO MARTON</p>
+            <ul className="infos">
+              <li>3 year programming experiment</li>
+              <li>Junior fullstack developer</li>
+              <li>Clojurescript, Javascript, Python</li>
+              <li>Hobby: Chatbots, Design</li>
+            </ul>
+          </>
+        )
+    }
+  }
+
   return (
-    <div className="background">
+    <div className="background team-container">
       <div className="team-grid-container">
         <div className="team-grid-head zawiasa shine">
           ZAWIASA
         </div>
-        <div className="team-grid-item shine-combo">
+        <div className="team-grid-item shine-combo" onClick={() => setAnim(["show", "Robert"])}>
           <img className="team-image" src={robert}/>
         </div>
-        <div className="team-grid-item">
+        <div className="team-grid-item" onClick={() => setAnim(["show", "Aron"])}>
           <img className="team-image" src={aron}/>
         </div>
-        <div className="team-grid-item">
+        <div className="team-grid-item" onClick={() => setAnim(["show", "Bernat"])}>
           <img className="team-image" src={berci}/>
         </div>
-        <div className="team-grid-item">
+        <div className="team-grid-item" onClick={() => setAnim(["show", "Bruno"])}>
           <img className="team-image" src={bruno}/>
         </div>
         <div className="team-grid-item team-name shine"> ROBERT </div>
@@ -31,6 +89,11 @@ const Team = () => {
         <div className="team-grid-item team-name shine"> BERNAT </div>
         <div className="team-grid-item team-name shine"> BRUNO </div>
       </div>
+      <div className={`modal ${anim[0]}`}>
+        {ModalContent()}
+      </div>
+
+      <div className={`modal-bg ${anim[0]}`} onClick={() => setAnim(["close", ""])}></div>
     </div>
   )
 }
