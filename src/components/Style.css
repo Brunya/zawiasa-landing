@@ -112,6 +112,7 @@ input {
   width: 750px;
   height: 420px;
   background: white;
+
 }
 
 .modal-bg {
@@ -129,15 +130,7 @@ input {
   to {opacity: 1}
 }
 
-.close {
-  -webkit-animation: fadeout 0.4s;
-  display: none;
-}
-
-@keyframes fadeout {
-  0% {opacity: 1}
-  100% {opacity: 0}
-}
+.close { display: none; }
 
 .modal-name {
   font-size: 48px;
@@ -151,8 +144,15 @@ input {
 }
 
 .infos > li {
-  font-size: 22px;
+  font-size: 28px;
   margin: 15px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto
 }
 
 .projects-grid-container {

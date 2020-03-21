@@ -19,9 +19,8 @@ const Team = () => {
           <>
             <p className="modal-name">ZAWIASA ROBERT HENRIK</p>
             <ul className="infos">
-              <li>35 year professional  programming experiment</li>
+              <li>35 years professional programming experience</li>
               <li>Co Founder of the first internet provider company in Hungary</li>
-              <li>Developer Inventor</li>
               <li>Clojure, Java, C, C++, Python</li>
               <li>Hobby: Microcomputers, Programming language design</li>
             </ul>
@@ -32,7 +31,7 @@ const Team = () => {
           <>
             <p className="modal-name">ZAWIASA ROBERT ARON</p>
             <ul className="infos">
-              <li>7 year professional programming experiment</li>
+              <li>7 years professional programming experience</li>
               <li>Software consultant, Bussiness advisor</li>
               <li>Clojure, Clojurescript</li>
               <li>Hobby: Cryptocurrancies, Game development</li>
@@ -42,9 +41,9 @@ const Team = () => {
       case "Bernat":
         return (
           <>
-            <p className="modal-name">ZAWIASA BERNAT BARNABAS</p>
+            <p className="modal-name" style={{fontSize: "44px"}}>ZAWIASA BERNAT BARNABAS</p>
             <ul className="infos">
-              <li>2 year programming experiment</li>
+              <li>2 years programming experience</li>
               <li>Junior frontend developer</li>
               <li>Clojure, Clojurescript</li>
               <li>Hobby: Robotics</li>
@@ -56,8 +55,8 @@ const Team = () => {
           <>
             <p className="modal-name">ZAWIASA BRUNO MARTON</p>
             <ul className="infos">
-              <li>3 year programming experiment</li>
-              <li>Junior fullstack developer</li>
+              <li>3 years programming experience</li>
+              <li>Junior full-stack developer</li>
               <li>Clojurescript, Javascript, Python</li>
               <li>Hobby: Chatbots, Design</li>
             </ul>

@@ -16,9 +16,9 @@ const Projects = () => {
             <div className="sm2 small block"> UX & UI </div>
             <div className="sm2_1 small block"> WEBAPP </div>
             <div className="md2 medium block"> APPLICATION DEVELOPMENT </div>
-            <div className="lg large block"> INTERNET<br/>OF<br/>THINGS </div>
+            <div className="lg large block"> CLOJURE DEVELOPER TEAM </div>
             <div className="md3 medium block"> ARTIFICIAL<br/>INTELLIGENCE </div>
-            <div className="sm3 small block"> MACHINE<br/>LEARNING </div>
+            <div className="sm3 small block"> TENSORFLOW </div>
             <div className="sm3_1 small block"> COMPUTER<br/>VISION </div>
             <div className="md4 medium block"> EDGE COMPUTING </div>
             <div className="sm4 small block"> RASPBERRY PI </div>
