@@ -5,7 +5,6 @@ import "./Style.css"
 import deakdelta from '../images/deakdelta.png';
 import taki from '../images/taki.png';
 
-
 const Partners = () => {
   return (
     <div className="background flexbox-partners">
