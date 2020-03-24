@@ -20,9 +20,9 @@ const Team = () => {
             <p className="modal-name">ZAWIASA ROBERT HENRIK</p>
             <ul className="infos">
               <li>35 years professional programming experience</li>
-              <li>Co Founder of the first internet provider company in Hungary</li>
+              <li>Co-founder of the first internet provider company in Hungary</li>
               <li>Clojure, Java, C, C++, Python</li>
-              <li>Hobby: Microcomputers, Programming language design</li>
+              <li>Hobbies: Microcomputers, Programming language design</li>
             </ul>
           </>
         )
@@ -32,9 +32,9 @@ const Team = () => {
             <p className="modal-name">ZAWIASA ROBERT ARON</p>
             <ul className="infos">
               <li>7 years professional programming experience</li>
-              <li>Software consultant, Bussiness advisor</li>
+              <li>Software consultant, Business advisor</li>
               <li>Clojure, Clojurescript</li>
-              <li>Hobby: Cryptocurrancies, Game development</li>
+              <li>Hobbies: Cryptocurrencies, Game development</li>
             </ul>
           </>
         )
@@ -46,7 +46,7 @@ const Team = () => {
               <li>2 years programming experience</li>
               <li>Junior frontend developer</li>
               <li>Clojure, Clojurescript</li>
-              <li>Hobby: Robotics</li>
+              <li>Hobbies: Robotics</li>
             </ul>
           </>
         )
@@ -58,7 +58,7 @@ const Team = () => {
               <li>3 years programming experience</li>
               <li>Junior full-stack developer</li>
               <li>Clojurescript, Javascript, Python</li>
-              <li>Hobby: Chatbots, Design</li>
+              <li>Hobbies: Chatbots, Design</li>
             </ul>
           </>
         )
