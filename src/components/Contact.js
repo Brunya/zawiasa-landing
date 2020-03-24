@@ -62,7 +62,7 @@ const Contact = (props) => {
           name="email"
           className="contact-input"/>
 
-        <textarea placeholder="Write for us"
+        <textarea placeholder="Write to us"
           value={values.message}
           onChange={handleChange}
           name="message"
