@@ -6,6 +6,7 @@ import "../components/Style.css"
 
 import Head from "../components/Head"
 import Team from "../components/Team"
+import Story from "../components/Story"
 import Projects from "../components/Projects"
 import Partners from "../components/Partners"
 import Contact from "../components/Contact"
@@ -40,6 +41,9 @@ function IndexPage() {
                <Team/>
              </FullpageSection>
              <FullpageSection>
+               <Story/>
+             </FullpageSection>
+             <FullpageSection>
                <Projects/>
              </FullpageSection>
              <FullpageSection>
@@ -58,6 +62,9 @@ function IndexPage() {
          </div>
          <div className="page">
            <Team/>
+         </div>
+         <div className="page">
+           <Story/>
          </div>
          <div className="page">
            <Projects/>
