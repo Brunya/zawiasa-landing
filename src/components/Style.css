@@ -170,13 +170,14 @@ input {
   font-weight: 900;
   font-size: 31px;
   width: 830px;
-  margin: 20px 0;
+  margin: 20px 0 0 0;
   padding-left: 20px;
   text-align: justify;
 }
 
 .story-text2 {
   font-weight: 500;
+  margin: 10px 0 20px 0;
 }
 
 .projects-grid-container {
