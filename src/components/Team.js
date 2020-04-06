@@ -43,7 +43,7 @@ const Team = () => {
           <>
             <p className="modal-name" style={{fontSize: "44px"}}>ZAWIASA BERNAT BARNABAS</p>
             <ul className="infos">
-              <li>2 years programming experience</li>
+              <li>2 years professional programming experience</li>
               <li>Junior frontend developer</li>
               <li>Clojure, Clojurescript</li>
               <li>Hobbies: Robotics</li>
@@ -55,7 +55,7 @@ const Team = () => {
           <>
             <p className="modal-name">ZAWIASA BRUNO MARTON</p>
             <ul className="infos">
-              <li>3 years programming experience</li>
+              <li>3 years professional programming experience</li>
               <li>Junior full-stack developer</li>
               <li>Clojurescript, Javascript, Python</li>
               <li>Hobbies: Chatbots, Design</li>
