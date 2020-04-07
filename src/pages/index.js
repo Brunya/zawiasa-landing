@@ -27,7 +27,12 @@ function IndexPage() {
          <title>Zawiasa.hu</title>
          <meta name="description" content="Zawiasa Clojure developer team from Szeged."/>
          <meta name="keywords" content="zawiasa, szeged clojure, clojure ai, clojure iot, clojure developer team, clojure developer, clojure, zawisa robert, zawiasa bruno, zawiasa aron, zawiasa bernat"/>
-    </Helmet>
+           <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162067371-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-162067371-1');
+        </script>
+  </Helmet>
 
     {isDesktop ? (
        <>
