@@ -32,6 +32,7 @@ function IndexPage() {
         <script>
           window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-162067371-1');
         </script>
+        <script async src="http://95.217.12.33:3000/tracker.js" data-ackee-server="http://95.217.12.33:3000" data-ackee-domain-id="2f9f6fa9-8cc2-420d-899c-2c9429d82454"></script>
   </Helmet>
 
     {isDesktop ? (
